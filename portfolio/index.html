@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <div class="logo-symbol">&lt;/&gt;</div>
+                <span>Portfolio</span>
+            </a>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Главная</a>
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#projects" class="nav-link">Проекты</a>
+                <a href="#skills" class="nav-link">Навыки</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+            <div class="mobile-menu">
+                <div class="mobile-menu-content">
+                    <a href="#home" class="mobile-nav-link">Главная</a>
+                    <a href="#about" class="mobile-nav-link">Обо мне</a>
+                    <a href="#projects" class="mobile-nav-link">Проекты</a>
+                    <a href="#skills" class="mobile-nav-link">Навыки</a>
+                    <a href="#contact" class="mobile-nav-link">Контакты</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Привет, я <span>Даут</span></h1>
+            <p class="hero-subtitle">Frontend Developer & UI/UX Designer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Мои проекты</a>
+                <a href="#contact" class="btn btn-outline">Связаться</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-header">
+                <h2 class="about-title">Обо мне</h2>
+                <p class="about-subtitle">Познакомьтесь со мной поближе</p>
+            </div>
+            <div class="about-widgets">
+                <div class="widget">
+                    <i class="fas fa-user widget-icon"></i>
+                    <h3 class="widget-title">Личная информация</h3>
+                    <p class="widget-text">Я увлеченный разработчик с опытом создания современных веб-приложений. Люблю создавать красивые и функциональные интерфейсы.</p>
+                </div>
+                <div class="widget">
+                    <i class="fas fa-briefcase widget-icon"></i>
+                    <h3 class="widget-title">Опыт работы</h3>
+                    <ul class="widget-list">
+                        <li>Frontend Developer в Company X (2022-2025)</li>
+                        <li>UI/UX Designer в Company Y (2021-2025)</li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <i class="fas fa-graduation-cap widget-icon"></i>
+                    <h3 class="widget-title">Образование</h3>
+                    <ul class="widget-list">
+                        <li>Информационные системы и программирование(2024)</li>
+                        <li>Курсы по веб-разработке (2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Мои проекты</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/project1.jpg" alt="Project 1" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Сайт для создания турниров и проведения их</h3>
+                    <p class="project-description">Сайт для создания турниров и проведения их. Был разработан с использованием HTML, CSS и JavaScript.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project2.jpg" alt="Project 2" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Создание искусственного интеллекта</h3>
+                    <p class="project-description">Искусственный интелект обладал способностью отвечать на вопросы пользователей, а также генерировать тексты для социальных сетей.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">React</span>
+                        <span class="project-tag">Node.js</span>
+                        <span class="project-tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project3.jpg" alt="Project 3" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Сайт для компании</h3>
+                    <p class="project-description">Сайт для компании "Арт-Мебель" предназначен для предоставления своих товаровю.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Vue.js</span>
+                        <span class="project-tag">Firebase</span>
+                        <span class="project-tag">SASS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Мои навыки</h2>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3 class="skill-name">Frontend Development</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-details">
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <p class="skill-description">HTML, CSS, JavaScript, React, Vue.js</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush skill-icon"></i>
+                    <h3 class="skill-name">UI/UX Design</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-details">
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <p class="skill-description">Figma, Adobe XD, User Research, Prototyping</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">UI Design</span>
+                        <span class="skill-tag">UX Research</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server skill-icon"></i>
+                    <h3 class="skill-name">Backend Development</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                    <div class="skill-details">
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <p class="skill-description">Node.js, Express, MongoDB, REST APIs</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">REST API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>akaba789@mail.ru</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Телефон</h3>
+                        <p>+7 (992) 051-24-36</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Локация</h3>
+                        <p>Абхазия, Сухум</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Ваш email" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Ваше сообщение" required></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить сообщение</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Dautakaba778877" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/duka555?igsh=MTViczR3eXh0MzgyeA==" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-text">© 2024 Ваше Имя. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
